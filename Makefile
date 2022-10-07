@@ -1,6 +1,6 @@
 start:
 	flask --app app run
-test:
+tests:
 	pytest
 setup:
 	pip install -r requirements.txt

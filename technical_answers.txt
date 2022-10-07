@@ -1,0 +1,34 @@
+1.- The five standard types are:
+        - Numbers.
+        - String.
+        - List.
+        - Tuple.
+        - Dictionary.
+    But they aren't the only ones, they exits some other that have a common use like: 
+    float, range, boolean, NoneType, bytes etc.
+
+2.- I think the most difference between tuples and lists is that lists are mutable and 
+    tuples are immutable, a list support item assignment and delete items while a tuple 
+    does not have this properties.
+
+3.- In python a decorator is a function that another function as an argument and returns another
+    function too, decorator are useful when we want add an funcionality extension of a function
+    but without make any modification to that function.
+
+4.- A generator is a function that brings a data stream in real time and have each data only when
+    we need it in this way we can have a better computer resources managment, for make a generator 
+    function we need to use de word yeild that returns data ready to be return.
+
+5.- A deep copy is a copy of one object that is copied into another object it means that any changes made 
+    to a copy of the object do not reflect in the original object In the case of shallow copy, a reference 
+    of an object is copied into another object it means that any changes made to a copy of an object do reflect 
+    in the original object.
+
+6.- Dependecy Injection is a programming tecnique, dependecy injection makes that objects recive another objects 
+    it depends on, having a less coupling, making more easy changes to objects and making testing more easy without
+    close dependency
+
+7.- First indicate to script python bin:
+    #!/usr/bin/env python3
+    Second give execution permissions to script:
+    chmod +x myscript.py
