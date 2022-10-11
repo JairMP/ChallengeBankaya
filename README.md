@@ -1,5 +1,3 @@
-# ChallengeBankaya
-
 # Documentation
 
 ## Installation
