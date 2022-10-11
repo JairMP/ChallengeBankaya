@@ -32,9 +32,9 @@ Run Tests.
 make tests
 ```
 
-## Endpoints
+## Endpoint
 
-To consume de API you can use this endpoints:
+To consume de API you can use this endpoint:
 
 ```sh
 POST http://127.0.0.1:5000/pokemon-in-location
@@ -51,5 +51,22 @@ You most send a JSON payload with the pokemon locations.
     "digletts-cave",
     "birth-island"
   ]
+}
+```
+
+## Responses
+
+### Success
+
+```json
+{
+   "bestLocation": {
+        "pokemonTypes": "Number of pokemons types in the best location",
+        "location": "Best location name"
+    }
+    "locations": [
+      "location": "Location name",
+      "pokemons": "List of pokemons you can catch in the location"
+    ]
 }
 ```
