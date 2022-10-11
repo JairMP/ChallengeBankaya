@@ -56,7 +56,7 @@ You most send a JSON payload with the pokemon locations.
 
 ## Responses
 
-### Success
+### 200 - Success
 
 ```json
 {
@@ -68,5 +68,31 @@ You most send a JSON payload with the pokemon locations.
       "location": "Location name",
       "pokemons": "List of pokemons you can catch in the location"
     ]
+}
+```
+
+### 400 - Location payload length
+
+```json
+{
+  "errors": {
+    "locations": ["Shorter than minimum length 1."]
+  }
+}
+```
+
+### 400 - Wrong Location
+
+```json
+{
+  "error": "canalave-city is not located on Kanto region"
+}
+```
+
+### 400 - Pokemon API Error
+
+```json
+{
+  "error": "Pokemon API call fail"
 }
 ```
